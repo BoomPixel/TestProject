@@ -8,6 +8,24 @@ body, html {
     font-family: Arial,sans-serif;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  background: #111;
+}
+
+header h1 {
+  margin: 14px 0 0 20px;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff;
+}
+
 .section {
     width: 100%;
     height: auto;
@@ -15,7 +33,7 @@ body, html {
 
 .container {
     width: 100%;
-    margin: auto;
+    margin-top: 100px;
     height: auto;
     text-align: center;
 }
@@ -23,17 +41,79 @@ body, html {
 .container30percent {
     width: 30%;
     height: auto;
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 40px;
+    display: inline;
+    margin-top: 100px;
     margin-bottom: 40px;
-    vertical-align: top;
+}
+
+.rahmen-admin {
+  border: 5px solid #242424;
+  box-shadow: 5px 5px 15px #242424;
+  display: inline-block;
+  height: 205px;
+  margin: 30px;
+  padding-top: 10px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.rahmen-developer {
+  border: 5px solid #242424;
+  box-shadow: 5px 5px 15px #242424;
+  display: inline-block;
+  height: 205px;
+  margin: 30px;
+  padding-top: 10px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.rahmen-moderator {
+  border: 5px solid #242424;
+  box-shadow: 5px 5px 15px #242424;
+  display: inline-block;
+  height: 205px;
+  margin: 30px;
+  padding-top: 10px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.rahmen-supporter {
+  border: 5px solid #242424;
+  box-shadow: 5px 5px 15px #242424;
+  display: inline-block;
+  height: 205px;
+  margin: 30px;
+  padding-top: 10px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.rahmen-designer {
+  border: 5px solid #242424;
+  box-shadow: 5px 5px 15px #242424;
+  display: inline-block;
+  height: 205px;
+  margin: 30px;
+  padding-top: 10px;
+  width: 20%;
+  background-color: #fff;
 }
 
 .team-name {
     font-size: 27px;
-    margin-top: 5px;
+    margin: 5px;
+}
+
+.staff-admin h1 {
+	padding: 7px 19px;
+	background:#303030;
+	font-size:20px;
+  font-weight: 100;
+	margin-bottom:3px;
+  color: #fff;
+	text-transform:uppercase;
 }
 
 /**
@@ -43,6 +123,7 @@ body, html {
 */
 
 .rank-badge {
+  border: 1px solid #242424;
 	padding: 3px 5px;
 	background:#ccc;
 	font-size:11px;
@@ -50,7 +131,7 @@ body, html {
 	text-transform:uppercase;
 }
 .rank-badge-admin {
-	background-color:#bc4141;
+	background-color:#DC1B1B;
 	color:#fff;
 }
 
@@ -60,6 +141,16 @@ body, html {
 }
 
 .rank-badge-moderator {
-	background-color:#3e7134;
+	background-color:#bc4141;
+	color:#fff;
+}
+
+.rank-badge-supporter {
+	background-color:#2e5c8b;
+	color:#fff;
+}
+
+.rank-badge-designer {
+	background-color:#00AE4B;
 	color:#fff;
 }
