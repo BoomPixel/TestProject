@@ -17,6 +17,11 @@ body, html {
   height: 500%;
 }
 
+#Community {
+  background:#E6E6E6;
+  height: 500%;
+}
+
 header {
   width: 100%;
   position: fixed;
@@ -189,4 +194,29 @@ section#Home h2 {
   font-weight: 100;
   color: #fff;
   text-align: center;
+}
+
+#title-container {
+	background-color: #8258FA;
+	weight: auto;
+	height: 250px;
+	text-align: center;
+    margin-top: 100px;
+    padding-top: 140px;
+	font-family: 'Robot', sans-serif;
+    
+}
+
+#home-title {
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+}
+
+#sub-title2 {
+    line-height: 25px;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-weight: blod !important;
 }
